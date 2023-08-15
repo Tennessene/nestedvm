@@ -157,7 +157,7 @@ tasks/build_%: tasks/patch_%
 
 version_gcc = 4.8.5
 
-url_gcc-all = http://mirrors.kernel.org/gnu/gcc/gcc-$(version_gcc)/gcc-$(version_gcc).tar.gz
+url_gcc-all = http://ftp.gnu.org/gnu/gcc/gcc-$(version_gcc)/gcc-$(version_gcc).tar.gz
 
 patches_gcc = gcc.patch
 
